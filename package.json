@@ -15,9 +15,10 @@
     "schemaVersion": "3.10"
   },
   "dependencies": {
-    "@saleor/app-sdk": "0.41.0",
+    "@saleor/app-sdk": "0.0.0-pr-20231206094442",
     "@saleor/macaw-ui": "1.0.0-pre.4",
     "@urql/exchange-auth": "^1.0.0",
+    "@vercel/kv": "^1.0.0",
     "@vitejs/plugin-react": "^3.0.1",
     "graphql": "^16.8.1",
     "graphql-tag": "^2.12.6",
