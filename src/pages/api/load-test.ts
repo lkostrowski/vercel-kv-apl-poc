@@ -12,7 +12,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   const authData = await saleorApp.apl.get(req.headers['saleor-api-url'] as string);
 
-  return res.send({
+  return res.json({
     url: authData?.saleorApiUrl,
   });
 }
